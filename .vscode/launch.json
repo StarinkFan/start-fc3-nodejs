@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "fc/start-nodejs-66zn",
+            "type": "node",
+            "request": "attach",
+            "address": "localhost",
+            "port": 3000,
+            "localRoot": "/Users/youyi/start-fc3-nodejs/code",
+            "remoteRoot": "/code",
+            "protocol": "inspector",
+            "stopOnEntry": false
+        }
+    ]
+}
