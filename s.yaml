@@ -39,7 +39,7 @@ resources:
       timeout: 30
       layers:
         - acs:fc:${vars.region}:official:layers/Nodejs-Puppeteer17x/versions/3
-        - acs:fc:cn-hangzhou:1431999136518149:layers/devs_ci_test_koa/versions/3
+        - acs:fc:cn-hangzhou:1431999136518149:layers/devs_ci_test_koa/versions/2
       
       # triggers:
         # - triggerName: httpTrigger # 触发器名称
